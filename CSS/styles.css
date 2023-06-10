@@ -1,3 +1,7 @@
+.no-outline {
+  outline: none;
+}
+
 
 .nav-link {
     color: #dacfe6;
@@ -33,3 +37,10 @@
   }
 
   .black-link {color: #000000;}
+
+  .example {
+    font-family: "cheee-variable", sans-serif;
+    font-variation-settings: 'YEST' 0, 'GRVT' 0;
+  }  
+
+
