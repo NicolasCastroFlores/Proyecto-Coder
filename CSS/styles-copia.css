@@ -1,0 +1,44 @@
+.no-outline {
+  outline: none;
+}
+
+.nav-link {
+    color: #dacfe6;
+  }
+  
+  .bg-azul {
+    background-color: #8011f2 ;
+    color: #000000;}
+  
+    .lead-color-page-text { color: #641ec7;}
+  
+    .lead-color-page{ background-color: #641ec7;}
+  
+  
+  .color-item{background-color: aliceblue;}
+  
+  .dropdown-item{color: aliceblue;}
+    
+  
+  .color-artist {color: #1581c0;}
+  
+  .backcolor-artist {background-color: #1581c0;}
+  
+  .text-color-1 {color: rgba(240, 248, 255, 0.837);}
+  
+  
+  .section-team {color: #cecdcdd7;}
+  .card-img {
+    object-fit: cover;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .black-link {color: #000000;}
+
+  .example {
+    font-family: "cheee-variable", sans-serif;
+    font-variation-settings: 'YEST' 0, 'GRVT' 0;
+  }  
+
+
