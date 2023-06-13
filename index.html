@@ -7,14 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://fonts.adobe.com/fonts/cheee-variable?vf-axes=GRVT,0,YEST,0&vf-font=CheeeVar-Stinkhead&vf-font-size=100#fonts-section">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.adobe.com/fonts/cheee-variable?vf-axes=GRVT,0,YEST,0&vf-font=CheeeVar-Stinkhead&vf-font-size=100#fonts-section">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>SOMOS CREATIVXS</title>
 </head>
 
 <body>
 
-    <header class=" navbar navbar-expand-lg lead-color-page border-bottom shadow-lg ">
+    <header class="navbar navbar-expand-lg gradient-color-page border-bottom shadow-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
               <img src="../IMG/paraglider-g6a3589f44_1280.png" alt="" class="h-25 d-inline-block"
@@ -25,24 +47,24 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <nav class="collapse navbar-collapse justify-content-end" id="barra de navegación">
-                <ul class="navbar-nav">
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                     <a class="nav-link" href="./Pages/acerca-de-nosotros.html">Nosotros</a>
-
+                        <a class="nav-link" href="./Pages/acerca-de-nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./Pages/artista.html">Artistas</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            data-bs-target="#dropdownMenu" aria-expanded="false">
                             MÁS
                         </a>
-                        <ul class="dropdown-menu lead-color-page">
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end lead-color-page"
+                            id="dropdownMenu">
                             <li><a class="dropdown-item" href="./Pages/equipo.html">Equipo</a></li>
                             <li><a class="dropdown-item" href="./Pages/registro.html">REGISTRARSE</a></li>
                         </ul>
@@ -52,9 +74,11 @@
         </div>
     </header>
 
+
+
     <main>
 
- <section class="portada container">
+        <section class="portada container">
 
             <div class="row flex-lg-row-reverse">
 
@@ -69,13 +93,14 @@
 
 
                 <div class="col-12 col-lg-6">
-                    <h1 class="display-1 fw-bold text-center text-lg-start mt-1">SOM<span class="lead-color-page-text">O</span>S
+                    <h1 class="display-1 fw-bold text-center text-lg-start mt-1">SOM<span
+                            class="lead-color-page-text">O</span>S
                         CREATIV<span class="lead-color-page-text">X</span>S</h1>
 
-                    <h3 class="display-1 text-center text-lg-start fw-bold mt-3">
+                    <h5 class="display-1 text-center text-lg-start fw-bold mt-3">
                         <span class="lead-color-page-text ">+</span> CERCA <span class="lead-color-page-text">QUE</span>
                         ANTES
-                    </h3>
+                    </h5>
 
                     <p class="text-center text-lg-start py-4">Un texto es una composición de signos codificados en un
                         sistema de escritura que forma una unidad de sentido.
@@ -84,13 +109,14 @@
                         original.</p>
 
                     <div class="d-flex justify-content-center justify-content-lg-start ">
-                       <h3> <a href="./pages/registro.html" class="btn btn-lg bg-azul display-1">QUIERO SER PARTE</a></h3>
+                        <h3> <a href="./pages/registro.html" class="btn btn-lg bg-azul display-1">QUIERO SER PARTE</a>
+                        </h3>
                     </div>
                 </div>
             </div>
- </section>
+        </section>
 
-        <section class="formulario container shadow-lg my-5 lead-color-page rounded">
+        <section class="formulario container shadow-lg my-5 gradient-artist rounded">
             <div class="row p-4">
                 <div class="col-12 col-lg-4">
                     <div class="card bg-transparent border-0 shadow">
@@ -100,7 +126,9 @@
                 </div>
                 <div class="col-12 col-lg-8">
                     <h2 class="display-3 fw-bold text-center text-lg-end pe-lg-4">
-                       <h2><span>¿CÓMO CREAR TU EQUIPO?</span></h2> 
+                        <h2>
+                            <div id="demotext">Comienza tu proyecto</div>
+                        </h2>
                     </h2>
                     <p class="text-center text-lg-start lead text-white">
                         <del>Dar el primer paso es una instancia vital para encontrarse con artistas y recrear tu
@@ -122,7 +150,7 @@
                 </div>
             </div>
         </section>
-    
+
         <section class="container py-4 mt-3">
             <div class="row">
                 <div class="col-md-6">
@@ -137,14 +165,27 @@
                                     <h2
                                         class="card-title display-5 lead-color-page-text fw-bold d-flex justify-content-center">
                                         EQUIPO</h2>
+
+
                                     <ul class="list-group list-group-flush">
-                                      <h3><li class="list-group-item d-flex justify-content-center tonto">EMPRESA</li></h3> 
-                                     <h3>   <li class="list-group-item d-flex justify-content-center tonto">ESTUDIANTE</li></h3>
-                                     <h2>  <li class="list-group-item d-flex justify-content-center tonto">EQUIPO</li></h2>
-                                     <h3>   <li class="list-group-item d-flex justify-content-center tonto">TALENTOS</li></h3>
+                                        <h3>
+                                            <li class="list-group-item d-flex justify-content-center tonto">EMPRESA</li>
+                                        </h3>
+                                        <h3>
+                                            <li class="list-group-item d-flex justify-content-center tonto">ESTUDIANTE
+                                            </li>
+                                        </h3>
+                                        <h3>
+                                            <li class="list-group-item d-flex justify-content-center tonto">MANAGER</li>
+                                        </h3>
+                                        <h3>
+                                            <li class="list-group-item d-flex justify-content-center tonto">TALENTOS
+                                            </li>
+                                        </h3>
                                     </ul>
                                     <div class="card-body d-flex justify-content-center">
-                                        <a href="./Pages/equipo.html"> <input type="submit" value="SUMATE" class="btn bg-azul"> </a>
+                                        <h4> <a href="./Pages/equipo.html"> <input type="submit" value="SUMATE"
+                                                    class="btn bg-azul"> </a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -161,18 +202,33 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                   
-                                    <h2 class="card-title display-5 lead-color-page-text fw-bold d-flex justify-content-center">
-                                      <span class=" color-artist"> ARTISTA </span> </h2>
 
-                                    <ul class="list-group list-group-flush"></h3>  
-                                     <h3>   <li class="list-group-item d-flex justify-content-center ">DANCER</li>
-                                     <h3>   <li class="list-group-item d-flex justify-content-center ">MUSICX</li></h3>  
-                                      <h3>  <li class="list-group-item d-flex justify-content-center ">FOTOGRAFO</li></h3>  
-                                    <h3>  <li class="list-group-item d-flex justify-content-center ">MODELO</li></h3>  
+                                    <h2
+                                        class="card-title display-5 lead-color-page-text fw-bold d-flex justify-content-center">
+                                        <span class=" color-artist"> ARTISTA </span>
+                                    </h2>
+
+                                    <ul class="list-group list-group-flush">
+                                        </h3>
+                                        <h3>
+                                            <li class="list-group-item d-flex justify-content-center ">DANCER</li>
+                                            <h3>
+                                                <li class="list-group-item d-flex justify-content-center ">MUSICX</li>
+                                            </h3>
+                                            <h3>
+                                                <li class="list-group-item d-flex justify-content-center ">FOTOGRAFO
+                                                </li>
+                                            </h3>
+                                            <h3>
+                                                <li class="list-group-item d-flex justify-content-center ">MODELO</li>
+                                            </h3>
                                     </ul>
                                     <div class="card-body d-flex justify-content-center">
-                                      <a href="./Pages/artista.html">  <input type=" submit" value=" SUMATE" class="btn backcolor-artist"></a>
+
+                                        <h4> <a href="./Pages/artista.html"> <input type=" submit" value=" SUMATE"
+                                                    class="btn backcolor-artist"></a></h4>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -183,60 +239,68 @@
         </section>
 
 
-        <section class="formulario container shadow-lg my-5 backcolor-artist rounded">
+        <section class="formulario container shadow-lg my-5 gradient-registro-index rounded rounded ">
             <div class="row p-4">
-              <div class="col-12 col-lg-8">
-                <h3 class="display-3 fw-bold text-center text-lg-start">
-                  <span class="text-color-1">Comienza tu proyecto</span>
-                </h3>
-                <p class="text-center text-lg-start text-color-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem eius perspiciatis qui asperiores saepe.
-                </p>
-                <form action="./Pages/registro.html" method="GET" class="mt-5 flex-column align-items-center flex-lg-row gap-4">
-                  <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre del proyecto">
-                  </div>
-                  <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre y apellido">
-                  </div>
-                  <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Correo de contacto">
-                  </div>
-                  <div class="text-center text-lg-start">
-                    <button type="submit" class="btn color-item">Registrar</button>
-                  </div>
-                </form>
-              </div>
-              <div class="col-12 col-lg-4 d-none d-lg-block">
-                <div class="card bg-transparent border-0 shadow">
-                  <img src="./IMG/undraw_Authentication_re_svpt.png" alt="" class="card-img img-fluid rounded-start">
+                <div class="col-12 col-lg-8">
+                    <h5 class="display-3 fw-bold text-center text-lg-start">
+                        <div id="demotext1">Comienza tu proyecto</div>
+                    </h5>
+
+                    <p class="text-center text-lg-start text-color-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatem eius perspiciatis
+                        qui asperiores saepe.
+                    </p>
+                    <form action="./Pages/registro.html" method="GET"
+                        class="mt-5 flex-column align-items-center flex-lg-row gap-4">
+                        <div class="mb-3">
+                         <h4>   <input type="text" class="form-control" placeholder="Nombre del proyecto"></h4>
+                        </div>
+                        <div class="mb-3">
+                           <h4> <input type="text" class="form-control" placeholder="Nombre y apellido"></h4>
+                        </div>
+                        <div class="mb-3">
+                           <h4> <input type="email" class="form-control" placeholder="Correo de contacto"></h4>
+                        </div>
+                        <div class="text-center text-lg-start">
+                            <h4><button type="submit" class="btn color-item">Registrar</button>
+                                <h4></h4>
+                        </div>
+                    </form>
                 </div>
-              </div>
+                <div class="col-12 col-lg-4 d-none d-lg-block">
+                    <div class="card bg-transparent border-0 shadow">
+                        <img src="./IMG/undraw_Authentication_re_svpt.png" alt=""
+                            class="card-img img-fluid rounded-start">
+                    </div>
+                </div>
             </div>
-          </section>
-          
+        </section>
 
     </main>
 
     <footer class="container-fluid">
 
-        <div class="row p-4 bg-azul">
+        <div class="row p-4 gradient-color-page">
             <div class="col-12 col-lg-8">
-                <h1 class="display-1 fw-bold text-center text-lg-start">SOM<span class="lead-color-page-text">O</span>S
-                    CREATIV<span class="lead-color-page-text">X</span>S</h1>
-               <p class="text-center text-lg-start">We Are Create nace de una idea en la búsqueda por establecer
-                    puentes y conectar <span class="lead-color-page-text">MÁS</span> nuestros trabajos.</p>
+                <h1 class="display-1 fw-bold text-center text-lg-start">SOM<span class="letras">O</span>S
+                    CREATIV<span class="letras">X</span>S</h1>
+                <p class="text-center text-lg-start">© We Are Create nace de una idea en la búsqueda por establecer
+                    puentes y conectar <span class="letras">MÁS</span> nuestros trabajos.</p>
                 <div class="row mt-4">
                     <div class="col-12 col-md-6 text-center">
-                       <a class="black-link" href="./Pages/acerca-de-nosotros.html"> <h4 class="display-7 fw-bold mb-0" id="acerca-de-nosotros">ACERCA DE NOSOTROS</h4></a>
-                     </div>
+                        <a class="black-link" href="./Pages/acerca-de-nosotros.html">
+                            <h4 class="display-7 fw-bold mb-0" id="acerca-de-nosotros">ACERCA DE NOSOTROS</h4>
+                        </a>
+                    </div>
 
                     <div class="col-12 col-md-6 text-center mt-3 mt-md-0">
-                      <a class="black-link" href="./Pages/registro.html"> <h4  class="display-7 fw-bold mb-0" id="contacto">REGISTRARSE</h4> </a>
+                        <a class="black-link" href="./Pages/registro.html">
+                            <h4 class="display-7 fw-bold mb-0" id="contacto">REGISTRARSE</h4>
+                        </a>
                     </div>
 
 
-                    
+
                 </div>
             </div>
         </div>
