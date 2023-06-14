@@ -79,32 +79,32 @@
   position: relative;
   animation: mover-logo 7s infinite;
   animation-timing-function: linear;
-  filter: drop-shadow(0px 0px 10px rgb(235, 232, 232)); /* Sombra más fuerte */
+  filter: drop-shadow(0px 0px 10px rgb(235, 232, 232)); 
 }
 #logo {
   position: relative;
   animation: mover-logo 7s infinite;
   animation-timing-function: linear;
-  filter: drop-shadow(0px 0px 10px rgb(235, 232, 232)); /* Sombra más fuerte */
+  filter: drop-shadow(0px 0px 10px rgb(235, 232, 232)); 
 }
 
 @keyframes mover-logo {
   0%, 100% {
     transform: translateX(-100%);
-    filter: drop-shadow(0px 0px 10px rgb(235, 232, 232)); /* Sombra más fuerte */
+    filter: drop-shadow(0px 0px 10px rgb(235, 232, 232)); 
   }
   40% {
-    filter: none; /* Sin sombra */
+    filter: none; 
   }
   50%, 80% {
-    transform: translateX(50%); /* Se mueve la mitad del camino */
-    filter: none; /* Sin sombra */
+    transform: translateX(50%); 
+    filter: none; 
   }
 }
 
 @media (max-width: 767px) {
   #logo {
-    transform: translateX(-50%); /* Centrar la imagen */
+    transform: translateX(-50%); 
   }
 }
 
